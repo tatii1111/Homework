@@ -1,1 +1,23 @@
+В работе
+using System;
 
+public class MainClass
+{
+    public static void Main()
+    {
+        Console.Write("a=");
+        int a = Console.Read();
+        Console.WriteLine();
+        Console.Write("b=");
+        int b = Console.Read();
+        Console.WriteLine();
+        Console.Write("c=");
+        int c = Console.Read();
+        Console.WriteLine();
+        int d = c;
+        int v = a;
+        int x = b;
+        Console.WriteLine(a);
+        Console.WriteLine("a=" + d + " b=" + v + " c=" + x);
+    }
+} 
